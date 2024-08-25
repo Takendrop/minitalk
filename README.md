@@ -63,15 +63,16 @@ For the bonus part of the project, you can implement additional features:
 ### Server
 
 First, start the server, which will print its PID:
-
+```sh
+make
 ./server
-
+```
 ### Client
 
 Once the server is running, you can use the client to send a message to the server:
-
+```sh
 ./client [server_pid] "Your message here"
-
+```
 Replace [server_pid] with the PID of the running server and "Your message here" with the string you wish to send.
 
 ## Conclusion
